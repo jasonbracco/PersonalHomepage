@@ -6,30 +6,36 @@
 
 /* Navbar */
 
-.navbar-container {
+.navbar-container { 
   padding: 5px;
   border: 1px solid;
   position: fixed;
-  background-color: blue;
-  max-width: 150px
+  max-width: 120px;
 }
 
 .nav-link {
   text-decoration: none;
+  word-wrap: break-word;
 }
 
 .nav-li {
   list-style: none;
-  padding: 10px
+  padding: 10px;
+}
+
+.nav-list {
+  max-width: 120px;
 }
 
 /* Main Page Layout */
 
 .main-container {
-  border: 5px solid;
-  height: 100%;
-  margin-left: 140px;
-  margin-right: 140px
+  border: 1px solid;
+  position: absolute;
+  width: 80%;
+  margin-top: 50px;
+  margin-left: 10%;
+
 
 }
 
