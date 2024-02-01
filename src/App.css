@@ -1,17 +1,35 @@
+/* Entire Application Page: */
+
+.app-container {
+  position: relative;
+}
+
+/* Navbar */
+
 .navbar-container {
-  padding: 10px;
-  border: 1px solid
+  padding: 5px;
+  border: 1px solid;
+  position: fixed;
+  background-color: blue;
+  max-width: 150px
 }
 
 .nav-link {
   text-decoration: none;
 }
 
-.menu-button {
-  padding: 5px;
-}
-
 .nav-li {
   list-style: none;
   padding: 10px
 }
+
+/* Main Page Layout */
+
+.main-container {
+  border: 5px solid;
+  height: 100%;
+  margin-left: 140px;
+  margin-right: 140px
+
+}
+

@@ -7,25 +7,27 @@ import Homepage from './Homepage'
 export function App() {
   return (
     <Router>
-      <header className="navbar-container">
-        <Navbar />
-      </header>
-      <div className="main-container">
-        <Routes>
-          <Route
-            path="/"
-            element={<Homepage />}
-          />
-          <Route
-            path="/NavLink1"
-          />
-          <Route
-            path="/NavLink2"
-          />
-          <Route
-            path="/NavLink3"
-          />
-        </Routes>
+      <div className="app-container">
+        <header className="navbar-container">
+          <Navbar />
+        </header>
+        <div className="main-container">
+          <Routes>
+            <Route
+              path="/"
+              element={<Homepage />}
+            />
+            <Route
+              path="/NavLink1"
+            />
+            <Route
+              path="/NavLink2"
+            />
+            <Route
+              path="/NavLink3"
+            />
+          </Routes>
+        </div>
       </div>
     </Router>
 
