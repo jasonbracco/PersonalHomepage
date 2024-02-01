@@ -1,16 +1,34 @@
 import React from 'react';
 import './App.css';
+import Navbar from './Navbar'
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
+import Homepage from './Homepage'
 
-function App() {
+export function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        Jason's Goal Tracker!
-        <p>
-          Let's Get to Work!
-        </p>
+    <Router>
+      <header className="navbar-container">
+        <Navbar />
       </header>
-    </div>
+      <div className="main-container">
+        <Routes>
+          <Route
+            path="/"
+            element={<Homepage />}
+          />
+          <Route
+            path="/NavLink1"
+          />
+          <Route
+            path="/NavLink2"
+          />
+          <Route
+            path="/NavLink3"
+          />
+        </Routes>
+      </div>
+    </Router>
+
   );
 }
 
