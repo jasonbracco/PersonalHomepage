@@ -1,0 +1,17 @@
+.navbar-container {
+  padding: 10px;
+  border: 1px solid
+}
+
+.nav-link {
+  text-decoration: none;
+}
+
+.menu-button {
+  padding: 5px;
+}
+
+.nav-li {
+  list-style: none;
+  padding: 10px
+}
