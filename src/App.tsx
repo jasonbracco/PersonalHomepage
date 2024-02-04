@@ -1,8 +1,11 @@
 import React from 'react';
 import './App.css';
-import Navbar from './Navbar'
+import Navbar from './Navbar';
+import Homepage from './Homepage';
+import Goalpage from './Goalpage';
+import Listpage from './Listpage';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
-import Homepage from './Homepage'
+
 
 export function App() {
   return (
@@ -18,10 +21,12 @@ export function App() {
               element={<Homepage />}
             />
             <Route
-              path="/NavLink1"
+              path="/Goals"
+              element={<Goalpage />}
             />
             <Route
-              path="/NavLink2"
+              path="/Lists"
+              element={<Listpage />}
             />
             <Route
               path="/NavLink3"
