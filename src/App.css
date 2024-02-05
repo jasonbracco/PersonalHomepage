@@ -40,6 +40,7 @@
 .homepage {
   width: 100%;
   height: 100%;
+  border: 1px solid;;
 }
 
 .welcome-text {
@@ -49,21 +50,22 @@
   width: 50%
 }
 
-.homepage-nav-header {
-  padding: 20px;
-  border: 1px solid;
+/* Homepage Calendar */
+
+.homepage-calendar {
+  height: 400px;
+  display: flex;
   text-align: center;
 }
 
-.homepage-nav-options {
-  border: 2px solid;
-  display: flex;
-  justify-content: center;
+.homepage-calendar-day {
+  border: 1px solid;
+  flex: 1;
 }
 
-.homepage-nav-option {
-  border: 1px solid;
-  margin: 25px auto;
+.homepage-calendar-day-header {
+  border-bottom: 1px solid;
+  padding: 5px;
 }
 
 

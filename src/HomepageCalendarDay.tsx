@@ -6,10 +6,12 @@ interface HomepageCalendarDayProps {
 
 export function HomepageCalendarDay({day}: HomepageCalendarDayProps) {
 
-    console.log(day)
     return (
         <div className="homepage-calendar-day">
-            This is one day!
+            <header className="homepage-calendar-day-header">{day}</header>
+            <div className="homepage-calendar-day-content">
+                Content Here
+            </div>
         </div>
     )
 }
